@@ -1,0 +1,342 @@
+const quoteMark = {
+  fontFamily: "'Spectral', serif",
+  fontWeight: 500,
+  color: '#1c5b3f',
+  lineHeight: 0.5,
+};
+
+export default function Testimonials() {
+  return (
+    <section id="testimonials" style={{ maxWidth: 1240, margin: '0 auto', padding: '104px 40px 36px' }}>
+      <div
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          alignItems: 'flex-end',
+          justifyContent: 'space-between',
+          gap: 18,
+          marginBottom: 48,
+        }}
+      >
+        <div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 18 }}>
+            <span style={{ width: 26, height: 1.5, background: '#1c5b3f', display: 'inline-block' }} />
+            <span
+              style={{
+                fontSize: 12,
+                fontWeight: 600,
+                letterSpacing: '0.2em',
+                textTransform: 'uppercase',
+                color: '#8a8073',
+              }}
+            >
+              Founder Testimonials
+            </span>
+          </div>
+          <h2
+            style={{
+              margin: 0,
+              fontFamily: "'Spectral', serif",
+              fontWeight: 500,
+              fontSize: 'clamp(34px,4.4vw,56px)',
+              letterSpacing: '-0.01em',
+              lineHeight: 1.05,
+              color: '#1a1a16',
+            }}
+          >
+            What our founders say.
+          </h2>
+        </div>
+        <p style={{ margin: 0, fontSize: 15, lineHeight: 1.6, color: '#8a8073', maxWidth: '30ch' }}>
+          Don&apos;t take our word for it — hear it from the founders we back.
+        </p>
+      </div>
+
+      <div style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr', gap: 30, alignItems: 'stretch' }}>
+        {/* Featured testimonial */}
+        <figure
+          style={{
+            margin: 0,
+            background: '#fbf9f3',
+            border: '1px solid rgba(26,26,22,0.09)',
+            borderRadius: 18,
+            padding: 'clamp(36px,3.6vw,56px)',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <div style={{ ...quoteMark, fontSize: 56, height: 30 }}>&ldquo;</div>
+          <blockquote
+            style={{
+              margin: '0 0 30px',
+              fontFamily: "'Spectral', serif",
+              fontWeight: 400,
+              fontSize: 'clamp(20px,1.9vw,26px)',
+              lineHeight: 1.5,
+              letterSpacing: '-0.005em',
+              color: '#26241e',
+              textWrap: 'pretty',
+            }}
+          >
+            From the beginning, BFG jumped into the trenches with me, providing meaningful support navigating the
+            inevitable challenges of a growing enterprise. Tom brought strong fiduciary and strategic oversight,
+            while Dayton, Tyler and Raj weighed in on tactics, commercial strategy and AI insights. Very grateful
+            for our BFG partnership.
+          </blockquote>
+          <figcaption
+            style={{
+              marginTop: 'auto',
+              display: 'flex',
+              alignItems: 'center',
+              gap: 16,
+              borderTop: '1px solid rgba(26,26,22,0.1)',
+              paddingTop: 26,
+            }}
+          >
+            <div
+              style={{
+                width: 52,
+                height: 52,
+                borderRadius: '50%',
+                flex: '0 0 auto',
+                backgroundImage: "url('/assets/bobos.png')",
+                backgroundSize: 'cover',
+                backgroundPosition: 'center 38%',
+                border: '1px solid rgba(26,26,22,0.12)',
+              }}
+            />
+            <div>
+              <div style={{ fontFamily: "'Spectral', serif", fontWeight: 500, fontSize: 18, color: '#1a1a16' }}>
+                TJ McIntyre
+              </div>
+              <div
+                style={{
+                  fontSize: 13,
+                  fontWeight: 500,
+                  letterSpacing: '0.04em',
+                  color: '#8a8073',
+                  textTransform: 'uppercase',
+                  marginTop: 2,
+                }}
+              >
+                CEO, Bobo&apos;s
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+
+        {/* Side column: stat + invitation */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 30 }}>
+          <div
+            style={{
+              background: '#1a1a16',
+              borderRadius: 18,
+              padding: 40,
+              color: '#fff',
+              flex: 1,
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+            }}
+          >
+            <div
+              style={{
+                fontFamily: "'Spectral', serif",
+                fontWeight: 500,
+                fontSize: 'clamp(44px,5vw,62px)',
+                lineHeight: 1,
+                letterSpacing: '-0.02em',
+              }}
+            >
+              94%
+            </div>
+            <p style={{ margin: '14px 0 0', fontSize: 14.5, lineHeight: 1.6, color: '#b7b1a6' }}>
+              of our founders would partner with BFG again — and most have, across multiple raises.
+            </p>
+          </div>
+          <div
+            style={{
+              background: '#fbf9f3',
+              border: '1px solid rgba(26,26,22,0.09)',
+              borderRadius: 18,
+              padding: 34,
+              flex: '0 0 auto',
+            }}
+          >
+            <p style={{ margin: '0 0 18px', fontFamily: "'Spectral', serif", fontSize: 18, lineHeight: 1.5, color: '#26241e' }}>
+              Building something bold in consumer? We&apos;d love to hear it.
+            </p>
+            <a
+              href="#contact"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 8,
+                fontSize: 13,
+                fontWeight: 600,
+                letterSpacing: '0.04em',
+                textTransform: 'uppercase',
+                color: '#1c5b3f',
+                textDecoration: 'none',
+              }}
+            >
+              Tell us your story <span style={{ fontSize: 15 }}>→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))',
+          gap: 30,
+          marginTop: 30,
+        }}
+      >
+        <figure
+          style={{
+            margin: 0,
+            background: '#fbf9f3',
+            border: '1px solid rgba(26,26,22,0.09)',
+            borderRadius: 18,
+            padding: 'clamp(30px,2.6vw,40px)',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <div style={{ ...quoteMark, fontSize: 48, height: 26 }}>&ldquo;</div>
+          <blockquote
+            style={{
+              margin: '0 0 26px',
+              fontFamily: "'Spectral', serif",
+              fontWeight: 400,
+              fontSize: 'clamp(17px,1.4vw,19px)',
+              lineHeight: 1.55,
+              letterSpacing: '-0.005em',
+              color: '#26241e',
+              textWrap: 'pretty',
+            }}
+          >
+            Boulder Food Group was great to work with. We would not have been able to achieve our goals without
+            them. We started Birch Benders right out of college, so had little to no CPG experience. BFG coached
+            and mentored us along the way, and provided much more than just capital. We are all friends to this
+            day, over a decade after their first investment into our business. We had a fantastic outcome with
+            Birch Benders, thanks in no small part to the wonderful team at BFG.
+          </blockquote>
+          <figcaption
+            style={{
+              marginTop: 'auto',
+              display: 'flex',
+              alignItems: 'center',
+              gap: 16,
+              borderTop: '1px solid rgba(26,26,22,0.1)',
+              paddingTop: 24,
+            }}
+          >
+            <div
+              style={{
+                width: 48,
+                height: 48,
+                borderRadius: '50%',
+                flex: '0 0 auto',
+                backgroundImage: "url('/assets/birchbenders.png')",
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                border: '1px solid rgba(26,26,22,0.12)',
+              }}
+            />
+            <div>
+              <div style={{ fontFamily: "'Spectral', serif", fontWeight: 500, fontSize: 17, color: '#1a1a16' }}>
+                Matthew P. LaCasse
+              </div>
+              <div
+                style={{
+                  fontSize: 13,
+                  fontWeight: 500,
+                  letterSpacing: '0.04em',
+                  color: '#8a8073',
+                  textTransform: 'uppercase',
+                  marginTop: 2,
+                }}
+              >
+                Founder &amp; CEO, Birch Benders
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure
+          style={{
+            margin: 0,
+            background: '#fbf9f3',
+            border: '1px solid rgba(26,26,22,0.09)',
+            borderRadius: 18,
+            padding: 'clamp(30px,2.6vw,40px)',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <div style={{ ...quoteMark, fontSize: 48, height: 26 }}>&ldquo;</div>
+          <blockquote
+            style={{
+              margin: '0 0 26px',
+              fontFamily: "'Spectral', serif",
+              fontWeight: 400,
+              fontSize: 'clamp(17px,1.4vw,19px)',
+              lineHeight: 1.55,
+              letterSpacing: '-0.005em',
+              color: '#26241e',
+              textWrap: 'pretty',
+            }}
+          >
+            When BFG first invested, OLIPOP was just starting out with under $100K in revenue. Scaling from there
+            to a $500M+ business requires partners who truly believe in your vision. BFG backed us round after
+            round while delivering high-impact introductions and strategic support along the way. Their belief in
+            our mission and their continuous partnership have made them invaluable to the OLIPOP story.
+          </blockquote>
+          <figcaption
+            style={{
+              marginTop: 'auto',
+              display: 'flex',
+              alignItems: 'center',
+              gap: 16,
+              borderTop: '1px solid rgba(26,26,22,0.1)',
+              paddingTop: 24,
+            }}
+          >
+            <div
+              style={{
+                width: 48,
+                height: 48,
+                borderRadius: '50%',
+                flex: '0 0 auto',
+                backgroundImage: "url('/assets/olipop.png')",
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                border: '1px solid rgba(26,26,22,0.12)',
+              }}
+            />
+            <div>
+              <div style={{ fontFamily: "'Spectral', serif", fontWeight: 500, fontSize: 17, color: '#1a1a16' }}>
+                Ben Goodwin
+              </div>
+              <div
+                style={{
+                  fontSize: 13,
+                  fontWeight: 500,
+                  letterSpacing: '0.04em',
+                  color: '#8a8073',
+                  textTransform: 'uppercase',
+                  marginTop: 2,
+                }}
+              >
+                Founder &amp; CEO, OLIPOP
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+  );
+}

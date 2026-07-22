@@ -1,0 +1,21 @@
+{
+  "name": "bfg-partners-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "cp -r public .next/standalone/public && mkdir -p .next/standalone/.next && cp -r .next/static .next/standalone/.next/static",
+    "start": "node .next/standalone/server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^16.2.11",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "overrides": {
+    "postcss": "^8.5.10",
+    "sharp": "^0.35.0"
+  }
+}
