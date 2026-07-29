@@ -24,9 +24,9 @@ export default function Header() {
           <img src="/assets/logo.png" alt="BFG" style={{ height: 30, width: 'auto', display: 'block' }} />
           <span
             style={{
-              fontFamily: "'Hanken Grotesque'",
+              fontFamily: "'Gilmer', 'Hanken Grotesque', sans-serif",
               fontSize: 12,
-              fontWeight: 600,
+              fontWeight: 700,
               letterSpacing: '0.26em',
               color: '#8a8073',
               textTransform: 'uppercase',

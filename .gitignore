@@ -23,6 +23,9 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# local Claude Code permission state
+.claude/settings.local.json
+
 # vercel
 .vercel
 

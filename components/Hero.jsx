@@ -24,7 +24,7 @@ export default function Hero() {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'minmax(0,1.38fr) minmax(280px,0.86fr)',
+            gridTemplateColumns: 'minmax(0,1.22fr) minmax(320px,1fr)',
             gap: 56,
             alignItems: 'center',
           }}

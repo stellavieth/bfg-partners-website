@@ -86,41 +86,24 @@ export default function Testimonials() {
           <figcaption
             style={{
               marginTop: 'auto',
-              display: 'flex',
-              alignItems: 'center',
-              gap: 16,
               borderTop: '1px solid rgba(26,26,22,0.1)',
               paddingTop: 26,
             }}
           >
+            <div style={{ fontFamily: "'Spectral', serif", fontWeight: 500, fontSize: 18, color: '#1a1a16' }}>
+              TJ McIntyre
+            </div>
             <div
               style={{
-                width: 52,
-                height: 52,
-                borderRadius: '50%',
-                flex: '0 0 auto',
-                backgroundImage: "url('/assets/bobos.png')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center 38%',
-                border: '1px solid rgba(26,26,22,0.12)',
+                fontSize: 13,
+                fontWeight: 500,
+                letterSpacing: '0.04em',
+                color: '#8a8073',
+                textTransform: 'uppercase',
+                marginTop: 2,
               }}
-            />
-            <div>
-              <div style={{ fontFamily: "'Spectral', serif", fontWeight: 500, fontSize: 18, color: '#1a1a16' }}>
-                TJ McIntyre
-              </div>
-              <div
-                style={{
-                  fontSize: 13,
-                  fontWeight: 500,
-                  letterSpacing: '0.04em',
-                  color: '#8a8073',
-                  textTransform: 'uppercase',
-                  marginTop: 2,
-                }}
-              >
-                CEO, Bobo&apos;s
-              </div>
+            >
+              CEO, Bobo&apos;s
             </div>
           </figcaption>
         </figure>
@@ -156,32 +139,30 @@ export default function Testimonials() {
           </div>
           <div
             style={{
-              background: '#fbf9f3',
-              border: '1px solid rgba(26,26,22,0.09)',
+              background: '#1a1a16',
               borderRadius: 18,
-              padding: 34,
-              flex: '0 0 auto',
+              padding: 40,
+              color: '#fff',
+              flex: 1,
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
             }}
           >
-            <p style={{ margin: '0 0 18px', fontFamily: "'Spectral', serif", fontSize: 18, lineHeight: 1.5, color: '#26241e' }}>
-              Building something bold in consumer? We&apos;d love to hear it.
-            </p>
-            <a
-              href="#contact"
+            <div
               style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: 8,
-                fontSize: 13,
-                fontWeight: 600,
-                letterSpacing: '0.04em',
-                textTransform: 'uppercase',
-                color: '#1c5b3f',
-                textDecoration: 'none',
+                fontFamily: "'Spectral', serif",
+                fontWeight: 500,
+                fontSize: 'clamp(28px,3vw,38px)',
+                lineHeight: 1.1,
+                letterSpacing: '-0.01em',
               }}
             >
-              Tell us your story <span style={{ fontSize: 15 }}>→</span>
-            </a>
+              4 out of 5 win rate
+            </div>
+            <p style={{ margin: '14px 0 0', fontSize: 14.5, lineHeight: 1.6, color: '#b7b1a6' }}>
+              We are the preferred partner for early-stage founders.
+            </p>
           </div>
         </div>
       </div>
@@ -227,41 +208,24 @@ export default function Testimonials() {
           <figcaption
             style={{
               marginTop: 'auto',
-              display: 'flex',
-              alignItems: 'center',
-              gap: 16,
               borderTop: '1px solid rgba(26,26,22,0.1)',
               paddingTop: 24,
             }}
           >
+            <div style={{ fontFamily: "'Spectral', serif", fontWeight: 500, fontSize: 17, color: '#1a1a16' }}>
+              Matthew P. LaCasse
+            </div>
             <div
               style={{
-                width: 48,
-                height: 48,
-                borderRadius: '50%',
-                flex: '0 0 auto',
-                backgroundImage: "url('/assets/birchbenders.png')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                border: '1px solid rgba(26,26,22,0.12)',
+                fontSize: 13,
+                fontWeight: 500,
+                letterSpacing: '0.04em',
+                color: '#8a8073',
+                textTransform: 'uppercase',
+                marginTop: 2,
               }}
-            />
-            <div>
-              <div style={{ fontFamily: "'Spectral', serif", fontWeight: 500, fontSize: 17, color: '#1a1a16' }}>
-                Matthew P. LaCasse
-              </div>
-              <div
-                style={{
-                  fontSize: 13,
-                  fontWeight: 500,
-                  letterSpacing: '0.04em',
-                  color: '#8a8073',
-                  textTransform: 'uppercase',
-                  marginTop: 2,
-                }}
-              >
-                Founder &amp; CEO, Birch Benders
-              </div>
+            >
+              Founder &amp; CEO, Birch Benders
             </div>
           </figcaption>
         </figure>
@@ -298,41 +262,24 @@ export default function Testimonials() {
           <figcaption
             style={{
               marginTop: 'auto',
-              display: 'flex',
-              alignItems: 'center',
-              gap: 16,
               borderTop: '1px solid rgba(26,26,22,0.1)',
               paddingTop: 24,
             }}
           >
+            <div style={{ fontFamily: "'Spectral', serif", fontWeight: 500, fontSize: 17, color: '#1a1a16' }}>
+              Ben Goodwin
+            </div>
             <div
               style={{
-                width: 48,
-                height: 48,
-                borderRadius: '50%',
-                flex: '0 0 auto',
-                backgroundImage: "url('/assets/olipop.png')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                border: '1px solid rgba(26,26,22,0.12)',
+                fontSize: 13,
+                fontWeight: 500,
+                letterSpacing: '0.04em',
+                color: '#8a8073',
+                textTransform: 'uppercase',
+                marginTop: 2,
               }}
-            />
-            <div>
-              <div style={{ fontFamily: "'Spectral', serif", fontWeight: 500, fontSize: 17, color: '#1a1a16' }}>
-                Ben Goodwin
-              </div>
-              <div
-                style={{
-                  fontSize: 13,
-                  fontWeight: 500,
-                  letterSpacing: '0.04em',
-                  color: '#8a8073',
-                  textTransform: 'uppercase',
-                  marginTop: 2,
-                }}
-              >
-                Founder &amp; CEO, OLIPOP
-              </div>
+            >
+              Founder &amp; CEO, OLIPOP
             </div>
           </figcaption>
         </figure>

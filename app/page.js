@@ -6,6 +6,7 @@ import Thesis from '@/components/Thesis';
 import Testimonials from '@/components/Testimonials';
 import Newsworthy from '@/components/Newsworthy';
 import Team from '@/components/Team';
+import DealCriteria from '@/components/DealCriteria';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Testimonials />
       <Newsworthy />
       <Team />
+      <DealCriteria />
       <Footer />
     </div>
   );
