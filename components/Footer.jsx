@@ -61,7 +61,7 @@ export default function Footer() {
         </a>
       </div>
       <div style={{ marginTop: 44, fontSize: 12, letterSpacing: '0.04em', color: '#9a9182' }}>
-        BFG Partners · Website refresh concept · 2026
+        © 2026 BFG Partners. All rights reserved.
       </div>
     </footer>
   );
