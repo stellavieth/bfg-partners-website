@@ -22,6 +22,7 @@ export default function Hero() {
     <>
       <section style={{ maxWidth: 1240, margin: '0 auto', padding: '88px 40px 36px' }}>
         <div
+          className="hero-grid"
           style={{
             display: 'grid',
             gridTemplateColumns: 'minmax(0,1.22fr) minmax(320px,1fr)',

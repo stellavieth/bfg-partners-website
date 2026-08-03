@@ -72,6 +72,7 @@ export default function DealCriteria() {
   return (
     <section style={{ maxWidth: 1240, margin: '0 auto', padding: '64px 40px 36px' }}>
       <div
+        className="deal-criteria-grid"
         style={{
           background: '#16412c',
           borderRadius: 18,

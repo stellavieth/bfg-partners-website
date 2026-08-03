@@ -52,7 +52,10 @@ export default function Testimonials() {
         </p>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr', gap: 30, alignItems: 'stretch' }}>
+      <div
+        className="testimonials-grid"
+        style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr', gap: 30, alignItems: 'stretch' }}
+      >
         {/* Featured testimonial */}
         <figure
           style={{

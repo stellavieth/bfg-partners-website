@@ -210,6 +210,7 @@ export default function Team() {
 
           <div style={{ maxWidth: 1080, margin: '0 auto', padding: '56px 40px 96px' }}>
             <div
+              className="team-bio-grid"
               style={{
                 display: 'grid',
                 gridTemplateColumns: 'minmax(260px,0.82fr) minmax(0,1.18fr)',
@@ -217,7 +218,7 @@ export default function Team() {
                 alignItems: 'start',
               }}
             >
-              <div style={{ position: 'sticky', top: 104 }}>
+              <div className="team-bio-photo" style={{ position: 'sticky', top: 104 }}>
                 <div
                   style={{
                     width: '100%',

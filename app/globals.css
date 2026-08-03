@@ -57,3 +57,20 @@ a:hover {
     grid-template-columns: 1fr !important;
   }
 }
+
+/* Fixed two-column layouts that don't use auto-fit need an explicit
+   stacking breakpoint, or their hard-coded minimum widths force an
+   overflow/squeeze on narrow screens (e.g. one word per line). */
+@media (max-width: 860px) {
+  .hero-grid,
+  .testimonials-grid,
+  .deal-criteria-grid,
+  .team-bio-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .team-bio-photo {
+    position: static !important;
+    top: auto !important;
+  }
+}
