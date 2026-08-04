@@ -48,7 +48,7 @@ export default function Portfolio() {
           </h2>
         </div>
         <p style={{ margin: 0, fontSize: 15, lineHeight: 1.6, color: '#8a8073', maxWidth: '30ch' }}>
-          Hover any company to see the story — the product never leaves the frame.
+          Hover over any company to see the story — the product never leaves the frame.
         </p>
       </div>
 
