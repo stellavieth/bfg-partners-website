@@ -47,9 +47,6 @@ export default function Portfolio() {
             The good stuff.
           </h2>
         </div>
-        <p style={{ margin: 0, fontSize: 15, lineHeight: 1.6, color: '#8a8073', maxWidth: '30ch' }}>
-          Hover over any company to see the story — the product never leaves the frame.
-        </p>
       </div>
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 30 }}>
