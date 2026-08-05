@@ -52,121 +52,60 @@ export default function Testimonials() {
         </p>
       </div>
 
-      <div
-        className="testimonials-grid"
-        style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr', gap: 30, alignItems: 'stretch' }}
-      >
-        {/* Featured testimonial */}
-        <figure
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 30 }}>
+        <div
           style={{
-            margin: 0,
-            background: '#fbf9f3',
-            border: '1px solid rgba(26,26,22,0.09)',
+            background: '#1a1a16',
             borderRadius: 18,
-            padding: 'clamp(36px,3.6vw,56px)',
+            padding: 40,
+            color: '#fff',
+            flex: '1 1 300px',
             display: 'flex',
             flexDirection: 'column',
+            justifyContent: 'center',
           }}
         >
-          <div style={{ ...quoteMark, fontSize: 56, height: 30 }}>&ldquo;</div>
-          <blockquote
+          <div
             style={{
-              margin: '0 0 30px',
               fontFamily: "'Spectral', serif",
-              fontWeight: 400,
-              fontSize: 'clamp(20px,1.9vw,26px)',
-              lineHeight: 1.5,
-              letterSpacing: '-0.005em',
-              color: '#26241e',
-              textWrap: 'pretty',
+              fontWeight: 500,
+              fontSize: 'clamp(44px,5vw,62px)',
+              lineHeight: 1,
+              letterSpacing: '-0.02em',
             }}
           >
-            From the beginning, BFG jumped into the trenches with me, providing meaningful support navigating the
-            inevitable challenges of a growing enterprise. Tom brought strong fiduciary and strategic oversight,
-            while Dayton, Tyler and Raj weighed in on tactics, commercial strategy and AI insights. Very grateful
-            for our BFG partnership.
-          </blockquote>
-          <figcaption
-            style={{
-              marginTop: 'auto',
-              borderTop: '1px solid rgba(26,26,22,0.1)',
-              paddingTop: 26,
-            }}
-          >
-            <div style={{ fontFamily: "'Spectral', serif", fontWeight: 500, fontSize: 18, color: '#1a1a16' }}>
-              TJ McIntyre
-            </div>
-            <div
-              style={{
-                fontSize: 13,
-                fontWeight: 500,
-                letterSpacing: '0.04em',
-                color: '#8a8073',
-                textTransform: 'uppercase',
-                marginTop: 2,
-              }}
-            >
-              CEO, Bobo&apos;s
-            </div>
-          </figcaption>
-        </figure>
-
-        {/* Side column: stat + invitation */}
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 30 }}>
+            94%
+          </div>
+          <p style={{ margin: '14px 0 0', fontSize: 14.5, lineHeight: 1.6, color: '#b7b1a6' }}>
+            of our founders would partner with BFG again — and most have, across multiple raises.
+          </p>
+        </div>
+        <div
+          style={{
+            background: '#1a1a16',
+            borderRadius: 18,
+            padding: 40,
+            color: '#fff',
+            flex: '1 1 300px',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+          }}
+        >
           <div
             style={{
-              background: '#1a1a16',
-              borderRadius: 18,
-              padding: 40,
-              color: '#fff',
-              flex: 1,
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
+              fontFamily: "'Spectral', serif",
+              fontWeight: 500,
+              fontSize: 'clamp(28px,3vw,38px)',
+              lineHeight: 1.1,
+              letterSpacing: '-0.01em',
             }}
           >
-            <div
-              style={{
-                fontFamily: "'Spectral', serif",
-                fontWeight: 500,
-                fontSize: 'clamp(44px,5vw,62px)',
-                lineHeight: 1,
-                letterSpacing: '-0.02em',
-              }}
-            >
-              94%
-            </div>
-            <p style={{ margin: '14px 0 0', fontSize: 14.5, lineHeight: 1.6, color: '#b7b1a6' }}>
-              of our founders would partner with BFG again — and most have, across multiple raises.
-            </p>
+            4 out of 5 win rate
           </div>
-          <div
-            style={{
-              background: '#1a1a16',
-              borderRadius: 18,
-              padding: 40,
-              color: '#fff',
-              flex: 1,
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-            }}
-          >
-            <div
-              style={{
-                fontFamily: "'Spectral', serif",
-                fontWeight: 500,
-                fontSize: 'clamp(28px,3vw,38px)',
-                lineHeight: 1.1,
-                letterSpacing: '-0.01em',
-              }}
-            >
-              4 out of 5 win rate
-            </div>
-            <p style={{ margin: '14px 0 0', fontSize: 14.5, lineHeight: 1.6, color: '#b7b1a6' }}>
-              We are the preferred partner for early-stage founders.
-            </p>
-          </div>
+          <p style={{ margin: '14px 0 0', fontSize: 14.5, lineHeight: 1.6, color: '#b7b1a6' }}>
+            We are the preferred partner for early-stage founders.
+          </p>
         </div>
       </div>
 

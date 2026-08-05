@@ -43,7 +43,7 @@ export const companies = [
   { name: 'Birch Benders', url: 'https://birchbenders.com', img: '/assets/birchbenders.png', tag: 'FOOD', category: 'Food · Baking Mix', acquired: true, blurb: 'Just-add-water pancake and waffle mixes made with real, simple ingredients.' },
   { name: "BOBO's", url: 'https://eatbobos.com', img: '/assets/bobos.png', tag: 'FOOD', category: 'Food · Oat Bars', blurb: 'Lovingly handmade oat bars and bites — wholesome, plant-based fuel that actually tastes like a treat.' },
   { name: 'Bowlcut', url: 'https://thebowlcut.com', img: '/assets/bowlcut.png', tag: 'FOOD', category: 'Food · Asian Pantry', blurb: "Chef-crafted chili crisp & sauces that turn a weeknight bowl into the best thing you'll eat all week." },
-  { name: 'Cartograph', url: 'https://www.gocartograph.com', img: '/assets/cartograph.png', tag: 'BUSINESS SERVICES', category: 'Business Services · Brand Growth', blurb: 'Charting the path that takes emerging consumer brands from the warehouse to the right shelves.' },
+  { name: 'Cartograph', url: 'https://www.gocartograph.com', img: '/assets/cartograph.png', tag: 'BUSINESS SERVICES', category: 'Business Services · Brand Growth', acquired: true, blurb: 'Charting the path that takes emerging consumer brands from the warehouse to the right shelves.' },
   { name: 'Caulipower', url: 'https://eatcaulipower.com', img: '/assets/caulipower.png', tag: 'FOOD', category: 'Food · Frozen', acquired: true, blurb: 'Cauliflower-crust pizzas and crispy chicken that make eating your veggies effortless.' },
   { name: 'Chameleon Cold-Brew', url: 'https://chameleoncoldbrew.com', img: '/assets/chameleon.png', tag: 'BEVERAGE', category: 'Beverage · Cold Brew', acquired: true, blurb: 'Smooth, organic, handcrafted cold-brew coffee — a pioneer of the ready-to-drink category.' },
   { name: 'Curlsmith', url: 'https://curlsmith.com', img: '/assets/curlsmith.png', tag: 'PERSONAL CARE', category: 'Personal Care · Hair Care', acquired: true, blurb: 'Recipe-inspired hair care formulated to nourish, define and protect every kind of curl.' },
@@ -54,20 +54,20 @@ export const companies = [
   { name: 'Ibotta', url: 'https://ibotta.com', img: '/assets/ibotta.png', tag: 'BUSINESS SERVICES', category: 'Business Services · Shopper Rewards', acquired: true, exitLabel: 'IPO', blurb: 'Cash back on everyday purchases across thousands of retailers and brands.' },
   { name: 'Jot', url: 'https://jot.co', img: '/assets/jot.png', tag: 'BEVERAGE', category: 'Beverage · Coffee', blurb: 'Ultra-concentrated cold brew coffee in a tiny bottle — engineered for the fastest cup possible.' },
   { name: 'Maev', url: 'https://www.meetmaev.com', img: '/assets/maev.png', tag: 'PET', category: 'Pet · Raw Nutrition', blurb: 'Human-grade raw food for modern dogs — the brand turning pet nutrition into a design object.' },
-  { name: 'Malk', url: 'https://malkorganics.com', img: '/assets/malk.png', tag: 'BEVERAGE', category: 'Beverage · Plant Milk', blurb: 'Organic, oil-free oat and nut milks made with as few ingredients as possible.' },
+  { name: 'MALK', url: 'https://malkorganics.com', img: '/assets/malk.png', tag: 'BEVERAGE', category: 'Beverage · Plant Milk', blurb: 'Organic, oil-free oat and nut milks made with as few ingredients as possible.' },
   { name: 'Mid-Day Squares', url: 'https://middaysquares.com', img: '/assets/middaysquares.png', tag: 'FOOD', category: 'Food · Chocolate Bars', blurb: 'Plant-based chocolate bars packed with protein and fiber — dessert that pulls double duty.' },
   { name: 'MUD\\WTR', url: 'https://mudwtr.com', img: '/assets/mudwtr.png', tag: 'BEVERAGE', category: 'Beverage · Functional', blurb: 'A coffee alternative with cacao and functional mushrooms — a calmer kind of morning ritual.' },
   { name: 'Oats Overnight', url: 'https://oatsovernight.com', img: '/assets/oats.png', tag: 'FOOD', category: 'Food · Overnight Oats', blurb: 'High-protein overnight oats you shake, fridge, and eat — breakfast with zero morning effort.' },
   { name: 'OLIPOP', url: 'https://drinkolipop.com', img: '/assets/olipop.png', tag: 'BEVERAGE', category: 'Beverage · Prebiotic Soda', blurb: 'A soda that supports digestive health — nostalgic flavors with a functional twist.' },
   { name: 'Quinn', url: 'https://quinnsnacks.com', img: '/assets/quinn.png', tag: 'FOOD', category: 'Food · Better-for-You Snacks', blurb: 'Craveable snacks like peanut butter pretzel nuggets, made with cleaner ingredients.' },
-  { name: 'Skratch Labs', url: 'https://www.skratchlabs.com', img: '/assets/skratch.png', tag: 'BEVERAGE', category: 'Beverage · Hydration', blurb: 'Real-food hydration and energy mixes built by and for endurance athletes.' },
+  { name: 'Skratch Labs', url: 'https://www.skratchlabs.com', img: '/assets/skratch.png', tag: 'BEVERAGE', category: 'Beverage · Hydration', acquired: true, blurb: 'Real-food hydration and energy mixes built by and for endurance athletes.' },
   { name: 'Snif', url: 'https://snif.co', img: '/assets/snif.png', tag: 'HOME', category: 'Home · Candles & Fragrance', blurb: 'Playful, well-crafted candles and fragrance that make scent feel fun again.' },
   { name: 'Stay Ai', url: 'https://stay.ai', img: '/assets/stayai.png', tag: 'BUSINESS SERVICES', category: 'Business Services · Retention Software', blurb: 'Retention and subscription tooling that helps DTC brands turn one order into many.' },
   { name: 'Vacation', url: 'https://www.vacation.inc', img: '/assets/vacation.png', tag: 'PERSONAL CARE', category: 'Personal Care · Sun Care', blurb: "The world's best-smelling sunscreen — leisure-enhancing SPF that turns sun care into a full retro fantasy." },
   { name: 'ZitSticka', url: 'https://zitsticka.com', img: '/assets/zitsticka.png', tag: 'PERSONAL CARE', category: 'Personal Care · Skincare', blurb: 'Microdart patches that treat blemishes overnight — skincare with a cult, gen-z following.' },
 ];
 
-export const heroCompanyNames = ['OLIPOP', 'Athletic Greens', 'Bear Naked', 'Vacation', 'Graza', 'Herbivore', 'Maev', 'Malk', 'MUD\\WTR'];
+export const heroCompanyNames = ['OLIPOP', 'Athletic Greens', 'Bear Naked', 'Vacation', 'Graza', 'Herbivore', 'Maev', 'MALK', 'MUD\\WTR'];
 
 export const team = [
   {

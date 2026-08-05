@@ -63,7 +63,6 @@ a:hover {
    overflow/squeeze on narrow screens (e.g. one word per line). */
 @media (max-width: 860px) {
   .hero-grid,
-  .testimonials-grid,
   .deal-criteria-grid,
   .team-bio-grid {
     grid-template-columns: 1fr !important;

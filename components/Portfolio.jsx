@@ -136,7 +136,7 @@ export default function Portfolio() {
                         textTransform: 'uppercase',
                       }}
                     >
-                      {card.exitLabel || 'Acquired'}
+                      {card.exitLabel || 'Exited'}
                     </span>
                   )}
                 </div>

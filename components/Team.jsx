@@ -67,7 +67,7 @@ export default function Team() {
                 color: '#1a1a16',
               }}
             >
-              Meet the team.
+              Meet the Leadership Team.
             </h2>
           </div>
           <p style={{ margin: 0, fontSize: 15, lineHeight: 1.6, color: '#8a8073', maxWidth: '32ch' }}>

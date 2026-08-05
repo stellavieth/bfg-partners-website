@@ -77,36 +77,6 @@ export default function Hero() {
               people actually love. We don&apos;t lead with logos. We lead with the things you&apos;d put on your
               counter.
             </p>
-            <div style={{ display: 'flex', gap: 40, marginTop: 36 }}>
-              <div>
-                <div
-                  style={{
-                    fontFamily: "'Spectral', serif",
-                    fontWeight: 500,
-                    fontSize: 42,
-                    letterSpacing: '-0.02em',
-                    color: '#1a1a16',
-                  }}
-                >
-                  40+
-                </div>
-                <div style={{ fontSize: 13, color: '#9a9182', fontWeight: 500, marginTop: 2 }}>Brands backed</div>
-              </div>
-              <div>
-                <div
-                  style={{
-                    fontFamily: "'Spectral', serif",
-                    fontWeight: 500,
-                    fontSize: 42,
-                    letterSpacing: '-0.02em',
-                    color: '#1a1a16',
-                  }}
-                >
-                  $120M
-                </div>
-                <div style={{ fontSize: 13, color: '#9a9182', fontWeight: 500, marginTop: 2 }}>Deployed</div>
-              </div>
-            </div>
           </div>
 
           {/* Right: rotating portfolio photo */}
